@@ -1,0 +1,39 @@
+.weather-container {
+    text-align: center;
+    margin-bottom: 20%;
+    
+  }
+  button{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+  }
+  input{
+    border: 2px solid black;
+    margin-right: 5px;
+  }
+  .weather-info {
+    
+    background-color:gray;
+    min-height: 50vh;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(10px + 2vmin); */
+    color: white;
+    margin: auto;
+    
+  }
+  h3{
+    color: black;
+    font-weight: 600;
+    font-size:large;
+    font-display: 2;
+  }
+.location{
+  margin-bottom: 30px;
+  font-size: 25px;
+}
